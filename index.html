@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0c1714">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="刘韩昕老师与 Healing City Lab 响应式多语言网站：疗愈动态、十九篇论文在线阅读、疗愈项目与团队介绍。">
+  <title>刘韩昕 · Healing City Lab｜响应式科研网站</title>
+  <link rel="icon" type="image/png" href="assets/healing-city-icon.png?v=20260728-old-logo-final">
+  <link rel="apple-touch-icon" href="assets/healing-city-icon.png?v=20260728-old-logo-final">
+  <link rel="stylesheet" href="style.css?v=20260811-healing-updates-v21">
+  <link rel="stylesheet" href="mobile-only.css?v=20260811-mobile-only-v21">
+</head>
+<body class="brand-story-open">
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <button class="logo" id="brandLogoButton" type="button" aria-haspopup="dialog" aria-controls="brandStory" aria-expanded="true" title="查看 Logo 设计说明">
+        <img src="assets/healing-city-icon.png?v=20260728-old-logo-final" alt="Healing City Lab 城市肌理与自然根系旧版标志">
+      </button>
+      <div><b>HEALING CITY LAB</b><small>RESTORATIVE ENVIRONMENT</small></div>
+    </div>
+    <div class="top-actions">
+      <button class="music-toggle is-on" id="musicToggle" type="button" aria-pressed="true" aria-label="关闭背景音乐" title="关闭背景音乐">
+        <span class="music-indicator" aria-hidden="true"><span class="music-bars"><i></i><i></i><i></i></span></span>
+      </button>
+      <button class="lang-toggle notranslate" id="langToggle" type="button" aria-haspopup="dialog" aria-controls="languageSheet" aria-expanded="false" translate="no">
+        <span class="lang-current" id="langCurrent"><strong>简</strong><span class="lang-main-hint">繁 / EN</span></span><i class="lang-caret">⌄</i>
+      </button>
+    </div>
+  </header>
+
+  <section class="section healing-library-section" id="news">
+    <header class="section-intro-portal" data-section-portal="news" data-portal-index="01">
+      <div class="section-arrival-signal"><i aria-hidden="true"></i><span data-i18n="sectionArrival">已进入新板块</span><b>01 / 04</b></div>
+      <div class="section-kicker"><span>01</span><div data-i18n="libraryKicker">HEALING UPDATES</div></div>
+      <h2 class="section-title"><span data-i18n="libraryTitleA">疗愈动态</span></h2>
+      <p class="section-desc" data-i18n="libraryDesc">汇集论文成果、疗愈实践、竞赛项目与具身体验计划，点击缩略图进入完整内容。</p>
+      <div class="section-opener-count"><b>07</b><span data-i18n="libraryCountLabel">项内容</span></div>
+    </header>
+    <div class="library-carousel" id="libraryCarousel" aria-roledescription="carousel" aria-label="疗愈动态自动轮播">
+      <button class="library-arrow library-prev" id="libraryPrev" type="button" aria-label="上一项">‹</button>
+      <div class="library-viewport">
+        <div class="library-track" id="libraryTrack">
+          <figure class="library-slide is-poster is-active" data-library-type="paper" data-library-target="fpubh-2024" role="button" tabindex="0" aria-label="打开论文成果：古典园林与私密活动">
+            <img src="pages/fpubh-2024/page-001.webp" alt="古典园林与私密活动论文封面">
+            <figcaption class="library-slide-caption"><small>01 · 论文成果</small><h3>古典园林与私密活动</h3><span>点击阅读 ↗</span></figcaption>
+          </figure>
+          <figure class="library-slide" data-library-type="project" data-library-target="ronghu-landscape" role="button" tabindex="0" aria-label="打开疗愈项目：榕湖景观提升项目">
+            <img src="assets/projects/ronghu/01.webp" alt="榕湖景观提升项目" loading="lazy">
+            <figcaption class="library-slide-caption"><small>02 · 疗愈项目</small><h3>榕湖景观提升项目</h3><span>点击查看 ↗</span></figcaption>
+          </figure>
+          <figure class="library-slide is-poster is-top-aligned" data-library-type="project" data-library-target="pixel-oasis" role="button" tabindex="0" aria-label="打开竞赛项目：像素绿洲">
+            <img src="assets/projects/pixel-oasis/cover-hd.webp" alt="竞赛项目像素绿洲高清展板" loading="lazy">
+            <figcaption class="library-slide-caption"><small>03 · 竞赛项目</small><h3>像素绿洲</h3><span>点击查看 ↗</span></figcaption>
+          </figure>
+          <figure class="library-slide is-poster is-long-title" data-library-type="paper" data-library-target="spatial-narrative-2024" role="button" tabindex="0" aria-label="打开论文成果：空间叙事理论下城市物质文化遗产价值评估与保护策略">
+            <img src="pages/spatial-narrative-2024/page-001.webp" alt="空间叙事理论下城市物质文化遗产价值评估与保护策略论文封面" loading="lazy">
+            <figcaption class="library-slide-caption"><small>04 · 论文成果</small><h3>空间叙事理论下城市物质文化遗产价值评估与保护策略——以大运河国家文化公园（苏州段）为例</h3><span>点击阅读 ↗</span></figcaption>
+          </figure>
+          <figure class="library-slide is-poster" data-library-type="project" data-library-target="shanshui-healing-workshop" role="button" tabindex="0" aria-label="打开山水情境疗愈工坊具身体验计划">
+            <img src="assets/projects/shanshui-workshop/poster-2026.webp" alt="山水情境疗愈工坊具身体验计划新海报" loading="lazy">
+            <figcaption class="library-slide-caption"><small>05 · 具身体验计划</small><h3>山水情境疗愈工坊具身体验计划</h3><span>点击查看 ↗</span></figcaption>
+          </figure>
+          <figure class="library-slide is-top-aligned" data-library-type="update" data-library-target="flower-letter-2026" role="button" tabindex="0" aria-label="打开疗愈动态：花笺寄情，春日抚心">
+            <img src="assets/updates/flower-letter-2026/01.webp" alt="花笺寄情，春日抚心疗愈植物手作活动" loading="lazy">
+            <figcaption class="library-slide-caption"><small>06 · 疗愈活动</small><h3>花笺寄情，春日抚心</h3><span>点击查看完整内容 ↗</span></figcaption>
+          </figure>
+          <figure class="library-slide" data-library-type="update" data-library-target="ronghu-diecai-2026" role="button" tabindex="0" aria-label="打开疗愈动态：榕湖叠彩疗愈工坊体验">
+            <img src="assets/updates/ronghu-diecai-2026/02.webp" alt="榕湖叠彩疗愈工坊现场体验与记录" loading="lazy">
+            <figcaption class="library-slide-caption"><small>07 · 具身体验</small><h3>榕湖｜叠彩疗愈工坊体验</h3><span>点击查看完整内容 ↗</span></figcaption>
+          </figure>
+        </div>
+      </div>
+      <button class="library-arrow library-next" id="libraryNext" type="button" aria-label="下一项">›</button>
+      <div class="library-carousel-foot">
+        <span class="library-auto-label"><i aria-hidden="true"></i><b data-i18n="libraryAuto">AUTO SCROLL · 4.3秒自动切换</b></span>
+        <div class="library-dots" id="libraryDots" aria-label="轮播页码"></div>
+      </div>
+    </div>
+    <section class="library-history-panel" aria-labelledby="libraryHistoryTitle">
+      <header class="library-history-head">
+        <div>
+          <small data-i18n="libraryHistoryKicker">READING HISTORY</small>
+          <h3 id="libraryHistoryTitle" data-i18n="libraryHistoryTitle">过往内容记录</h3>
+        </div>
+        <span data-i18n="libraryHistoryHint">点击回看</span>
+      </header>
+      <div class="library-history-list" id="libraryHistoryList">
+        <button class="library-history-item is-active" type="button" data-library-history-index="0">
+          <i aria-hidden="true">›</i><span data-i18n="libraryHistoryItem1">古典园林与私密活动</span><time datetime="2026-07-28">2026-07-28</time>
+        </button>
+        <button class="library-history-item" type="button" data-library-history-index="1">
+          <i aria-hidden="true">›</i><span data-i18n="libraryHistoryItem2">榕湖景观提升项目</span><time datetime="2026-07-27">2026-07-27</time>
+        </button>
+        <button class="library-history-item" type="button" data-library-history-index="2">
+          <i aria-hidden="true">›</i><span data-i18n="libraryHistoryItem3">像素绿洲</span><time datetime="2026-07-26">2026-07-26</time>
+        </button>
+        <button class="library-history-item" type="button" data-library-history-index="3">
+          <i aria-hidden="true">›</i><span data-i18n="libraryHistoryItem4">空间叙事理论下城市物质文化遗产价值评估与保护策略</span><time datetime="2026-07-25">2026-07-25</time>
+        </button>
+        <button class="library-history-item" type="button" data-library-history-index="4">
+          <i aria-hidden="true">›</i><span data-i18n="libraryHistoryItem5">山水情境疗愈工坊具身体验计划</span><time datetime="2026-07-24">2026-07-24</time>
+        </button>
+        <button class="library-history-item" type="button" data-library-history-index="5">
+          <i aria-hidden="true">›</i><span data-i18n="libraryHistoryItem6">花笺寄情，春日抚心</span><time datetime="2026-04-26">2026-04-26</time>
+        </button>
+        <button class="library-history-item" type="button" data-library-history-index="6">
+          <i aria-hidden="true">›</i><span data-i18n="libraryHistoryItem7">榕湖｜叠彩疗愈工坊体验</span><time datetime="2026">2026</time>
+        </button>
+      </div>
+    </section>
+  </section>
+
+  <section class="projects-view deep-green-publications" id="papers">
+    <section class="project-hero section-intro-portal section-intro-portal-paper" data-section-portal="papers" data-portal-index="02">
+      <div class="project-watermark" aria-hidden="true">02</div>
+      <div class="section-arrival-signal"><i aria-hidden="true"></i><span data-i18n="sectionArrival">已进入新板块</span><b>02 / 04</b></div>
+      <div class="project-kicker"><span>PUBLICATIONS</span> / PAPERS</div>
+      <h2 data-i18n="projectsTitle">论文成果</h2>
+      <p data-i18n="projectsDesc">19篇论文原件完整保留。点击成果卡片查看中间页，再次点击进入原文阅读。</p>
+      <div class="project-total section-opener-count"><b id="paperCount">19</b><span data-i18n="paperCountLabel">篇论文成果</span></div>
+    </section>
+
+    <section class="project-tools" aria-label="论文检索与筛选">
+      <form class="legacy-search" id="searchForm" role="search" novalidate>
+        <button class="legacy-search-icon" id="searchIconButton" type="submit" aria-label="搜索">⌕</button>
+        <input id="searchInput" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" data-placeholder-zh="搜索标题、作者、期刊或关键词" data-placeholder-en="Search title, author, journal or keywords" aria-label="搜索论文成果">
+        <button class="legacy-search-clear" id="clearSearch" type="button" aria-label="清除搜索" hidden>×</button>
+        <button class="legacy-search-submit" id="searchSubmit" type="submit" data-i18n="searchAction">搜索</button>
+      </form>
+      <div class="search-feedback legacy-search-feedback" id="searchFeedback" aria-live="polite"></div>
+      <div class="filter-scroll" id="themeFilters" aria-label="主题筛选"></div>
+      <div class="filter-scroll year-filter-scroll" id="yearFilters" aria-label="年份筛选"></div>
+    </section>
+
+    <section class="paper-grid" id="paperWall" aria-live="polite"></section>
+  </section>
+
+  <section class="section built-projects-section" id="projects">
+    <header class="section-intro-portal" data-section-portal="projects" data-portal-index="03">
+      <div class="section-arrival-signal"><i aria-hidden="true"></i><span data-i18n="sectionArrival">已进入新板块</span><b>03 / 04</b></div>
+      <div class="section-kicker"><span>03</span><div data-i18n="builtProjectsKicker">HEALING PROJECTS</div></div>
+      <h2 class="section-title"><span data-i18n="builtProjectsTitleA">疗愈项目</span></h2>
+      <p class="section-desc" data-i18n="builtProjectsDesc">呈现团队已完成和正在推进的疗愈环境实践与竞赛探索，点击项目卡片进入完整项目长页。</p>
+      <div class="section-opener-count"><b>04</b><span data-i18n="builtProjectCountLabel">个项目内容</span></div>
+    </header>
+    <div class="built-projects-grid" id="builtProjectsGrid"></div>
+    <div class="project-subsection-head">
+      <div><small>COMPETITION PROJECTS</small><h3 data-i18n="competitionTitle">竞赛项目</h3></div>
+    </div>
+    <div class="built-projects-grid competition-projects-grid" id="competitionProjectsGrid"></div>
+  </section>
+
+  <section class="section team-section" id="team">
+    <header class="section-intro-portal" data-section-portal="team" data-portal-index="04">
+      <div class="section-arrival-signal"><i aria-hidden="true"></i><span data-i18n="sectionArrival">已进入新板块</span><b>04 / 04</b></div>
+      <div class="section-kicker"><span>04</span><div data-i18n="teamKicker">THE HEALING CITY TEAM</div></div>
+      <h2 class="section-title"><span data-i18n="teamTitleA">团队介绍</span></h2>
+      <p class="section-desc" data-i18n="teamDesc">由刘韩昕教授与七位研究生共同组成，点击成员头像进入个人介绍。</p>
+      <div class="section-opener-count"><b>08</b><span data-i18n="teamCountLabel">位团队成员</span></div>
+    </header>
+
+    <div class="team-roster-head">
+      <div><small data-i18n="teamOrder">排名不分先后 · TEAM MEMBERS</small><h3 data-i18n="teamRoster">团队介绍</h3></div>
+    </div>
+    <div class="team-grid" id="teamGrid">
+      <article class="team-member-card team-leader-card" id="teamLeaderCard">
+        <button class="team-member-avatar team-avatar-button" type="button" data-team-profile="leader" aria-label="打开刘韩昕教授全屏个人简介">
+          <img src="assets/portrait.webp" alt="负责人刘韩昕教授照片">
+        </button>
+        <div>
+          <h4 id="profileName">刘韩昕</h4>
+          <small><span data-i18n="teamLeaderEn">TEAM LEADER</span> · <span data-i18n="school">桂林理工大学</span></small>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="mobile-contact" aria-label="刘韩昕教授联系方式">
+    <small data-i18n="contactKicker">PROFESSOR CONTACT</small>
+    <p><span data-i18n="contactEmail">邮箱</span> <a href="mailto:3221500@qq.com">3221500@qq.com</a><i>·</i><span>QQ</span> 3221500</p>
+    <p><span data-i18n="contactAddress">通讯地址</span> 桂林市建干路12号<i>·</i><span data-i18n="contactPostcode">邮编</span> 541004</p>
+  </footer>
+
+  <footer class="site-legal-footer" aria-label="关于我们与版权">
+    <nav>
+      <a href="#team">关于我们</a>
+      <button id="openCopyright" type="button" aria-haspopup="dialog" aria-controls="copyrightPage" aria-expanded="false">版权</button>
+      <span>桂ICP备16001103-2</span>
+    </nav>
+    <small>© 2026 HEALING CITY LAB</small>
+  </footer>
+
+  <nav class="bottom-nav">
+    <div class="nav-wrap">
+      <a href="#news" id="navNews" class="active" aria-current="page">
+        <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 5.5c2.8-.6 5.3-.1 7.5 1.5v12c-2.2-1.6-4.7-2.1-7.5-1.5zM19.5 5.5c-2.8-.6-5.3-.1-7.5 1.5v12c2.2-1.6 4.7-2.1 7.5-1.5z"/></svg>
+        <span data-i18n="navNews">疗愈动态</span>
+      </a>
+      <a href="#papers" id="navPapers">
+        <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4.5h8.8l2.2 2.3v12.7h-11zM9 9h6M9 12.5h6M9 16h4"/></svg>
+        <span data-i18n="navPapers">论文成果</span>
+      </a>
+      <a href="#projects" id="navProjects">
+        <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 19.5V9l7.5-4.5L19.5 9v10.5zM8 19.5v-6h8v6M8 10h.01M12 10h.01M16 10h.01"/></svg>
+        <span data-i18n="navProjects">疗愈项目</span>
+      </a>
+      <a href="#team" id="navTeam">
+        <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM5.5 19c.6-3.1 2.7-4.7 6.5-4.7s5.9 1.6 6.5 4.7M4 12a2.4 2.4 0 0 1 2.4-2.4M20 12a2.4 2.4 0 0 0-2.4-2.4"/></svg>
+        <span data-i18n="navTeam">团队介绍</span>
+      </a>
+    </div>
+  </nav>
+</div>
+
+<div class="navigation-toast" id="navigationToast" role="status" aria-live="polite" aria-atomic="true"></div>
+<div class="back-gesture-rail" aria-hidden="true"><i></i></div>
+
+<div class="copyright-page" id="copyrightPage" role="dialog" aria-modal="true" aria-labelledby="copyrightTitle" aria-hidden="true" hidden>
+  <header class="copyright-page-head">
+    <button id="copyrightClose" type="button" aria-label="返回网页底部"><span aria-hidden="true">←</span> 返回</button>
+    <div>
+      <small>HEALING CITY LAB · LEGAL</small>
+      <h2 id="copyrightTitle">版权声明</h2>
+    </div>
+    <i aria-hidden="true"></i>
+  </header>
+  <main class="copyright-page-body">
+    <ol>
+      <li>本站（刘韩昕疗愈环境与城市空间研究网站）所展示的全部原创内容，包括但不限于文字介绍、研究成果、论文资料、项目案例、设计作品、图片、视频、图表、界面设计及相关视觉元素，均受《中华人民共和国著作权法》《中华人民共和国商标法》及相关法律法规保护。未经本站及相关权利人书面许可，任何单位或个人不得擅自转载、复制、修改、传播、展示或用于商业用途。</li>
+      <li>本站部分内容来源于科研论文、公开发表成果、合作项目资料及相关授权资源。其中论文、图片、项目资料等版权归原作者、发表机构或相关权利主体所有。本站仅用于学术展示、科研交流及成果传播，不代表对第三方内容权属的改变。如涉及版权问题，请联系本站进行处理。</li>
+      <li>本站欢迎学术交流与合作。经授权使用本站内容时，应注明“来源：刘韩昕疗愈环境与城市空间研究网站”，并按照相关授权范围使用，不得歪曲、篡改或用于商业传播。</li>
+      <li>未经授权转载、复制本站内容的行为，本站将依据相关法律法规追究责任。对于侵犯原创成果、设计作品、科研成果权益的行为，本站保留通过法律途径维护权益的权利。</li>
+      <li>本站引用或展示的第三方信息，仅用于学术研究、教育展示和公共交流目的，相关内容版权归原作者及所属机构所有。如权利人认为相关内容侵犯其合法权益，请及时联系我们，我们将在核实后进行处理。</li>
+      <li>本站科研成果、设计案例及项目资料涉及合作单位、学校、团队成员及研究对象的信息时，将遵循科研伦理、知识产权保护及个人信息保护相关要求。未经许可，不公开涉及个人隐私或未授权传播的信息。</li>
+      <li>本网站所有内容的最终解释权归<strong>刘韩昕疗愈环境与城市空间研究团队</strong>，所有权利保留。</li>
+    </ol>
+    <section class="copyright-contact">
+      <small>版权与授权联系</small>
+      <a href="mailto:3221500@qq.com">3221500@qq.com</a>
+    </section>
+  </main>
+</div>
+
+<div class="project-showcase update-showcase" id="updateShowcase" hidden aria-hidden="true">
+  <button class="project-showcase-backdrop" type="button" data-update-close aria-label="关闭疗愈动态详情"></button>
+  <section class="project-showcase-shell project-editorial-shell update-showcase-shell" role="dialog" aria-modal="true" aria-labelledby="updateShowcaseTitle">
+    <header class="project-showcase-head">
+      <div>
+        <small id="updateShowcaseKicker">HEALING UPDATE</small>
+        <h2 id="updateShowcaseTitle">疗愈动态</h2>
+      </div>
+      <button class="project-showcase-close" type="button" data-update-close aria-label="关闭疗愈动态详情">×</button>
+    </header>
+    <article class="project-gallery project-editorial-article update-showcase-article" id="updateShowcaseArticle">
+      <div class="project-editorial-intro update-showcase-intro">
+        <div class="update-showcase-meta"><time id="updateShowcaseDate"></time><span id="updateShowcasePlace"></span></div>
+        <p id="updateShowcaseDesc"></p>
+      </div>
+      <div class="project-gallery-track project-editorial-stream update-showcase-stream" id="updateShowcaseStream"></div>
+    </article>
+  </section>
+</div>
+
+<div class="project-showcase" id="projectShowcase" hidden aria-hidden="true">
+  <button class="project-showcase-backdrop" type="button" data-project-close aria-label="关闭项目详情"></button>
+  <section class="project-showcase-shell project-editorial-shell" role="dialog" aria-modal="true" aria-labelledby="projectShowcaseTitle">
+    <header class="project-showcase-head">
+      <div>
+        <small id="projectShowcaseKicker">BUILT PROJECT</small>
+        <h2 id="projectShowcaseTitle">疗愈项目</h2>
+      </div>
+      <button class="project-showcase-close" type="button" data-project-close aria-label="关闭项目详情">×</button>
+    </header>
+    <article class="project-gallery project-editorial-article" id="projectGallery">
+      <div class="project-editorial-intro">
+        <p id="projectShowcaseDesc"></p>
+        <div class="project-editorial-meta" id="projectEditorialMeta" hidden></div>
+      </div>
+      <div class="project-gallery-track project-editorial-stream" id="projectGalleryTrack"></div>
+      <section class="project-technical" id="projectTechnical"></section>
+      <footer class="project-showcase-foot">
+        <div class="project-gallery-controls">
+          <button id="projectGalleryPrev" type="button" aria-label="上一个项目">←</button>
+          <span id="projectGalleryCounter">01 / 05</span>
+          <button id="projectGalleryNext" type="button" aria-label="下一个项目">→</button>
+        </div>
+      </footer>
+    </article>
+  </section>
+</div>
+
+<div class="sheet language-sheet" id="languageSheet" aria-hidden="true">
+  <button class="sheet-backdrop" data-close="languageSheet"></button>
+  <div class="sheet-panel">
+    <div class="grip"></div>
+    <div class="sheet-head">
+      <div><small data-i18n="languageSmall">LANGUAGE</small><h3 data-i18n="languageTitle">选择网站语言</h3></div>
+      <button class="sheet-close" data-close="languageSheet" data-i18n="close">关闭</button>
+    </div>
+    <div class="sheet-body language-body">
+      <p class="language-subtitle" data-i18n="languageSubtitle">已内置 Google Translate 语言目录中的192种语言与语言变体；可直接搜索并在当前网页内切换。简体中文、繁體中文和英语置顶显示。</p>
+      <form class="language-search" id="languageSearchForm" role="search" novalidate>
+        <button class="language-search-icon" type="submit" aria-label="搜索语言">⌕</button>
+        <input id="languageSearchInput" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" aria-label="搜索语言">
+        <button class="language-search-clear" id="clearLanguageSearch" type="button" aria-label="清除语言搜索" hidden>×</button>
+      </form>
+      <div class="language-search-feedback" id="languageSearchFeedback" aria-live="polite"></div>
+      <div class="language-section-label" id="primaryLanguageLabel" data-i18n="primaryLanguages">主要语言</div>
+      <div class="language-primary notranslate" id="languagePrimary" translate="no"></div>
+      <div class="language-section-label" id="moreLanguageLabel" data-i18n="moreLanguages">更多语言</div>
+      <div class="language-grid notranslate" id="languageGrid" translate="no"></div>
+      <div class="language-section-label all-language-label" id="allLanguageLabel" data-i18n="allLanguages">全部内置语言 · 192</div>
+      <div class="language-grid all-language-grid notranslate" id="allLanguageGrid" translate="no"></div>
+      <p class="translation-engine-note" id="translationEngineNote" data-i18n="translationEngineHint">选择其他语种后将在当前网页内翻译，不会跳转至外部页面。自动翻译功能需要联网。</p>
+    </div>
+  </div>
+</div>
+
+<div class="sheet member-profile-sheet" id="teamMemberSheet" aria-hidden="true">
+  <button class="sheet-backdrop" data-close="teamMemberSheet" aria-label="关闭团队成员介绍"></button>
+  <div class="sheet-panel member-profile-panel" role="dialog" aria-modal="true" aria-labelledby="teamMemberDetailName">
+    <div class="grip"></div>
+    <div class="sheet-head">
+      <div><small>HEALING CITY LAB · TEAM MEMBER</small><h3 id="teamMemberSheetTitle">团队成员介绍</h3></div>
+      <button class="sheet-close" data-close="teamMemberSheet" data-i18n="close">关闭</button>
+    </div>
+    <div class="sheet-body member-profile-body">
+      <figure class="member-profile-photo">
+        <img id="teamMemberDetailPhoto" src="" alt="">
+        <figcaption id="teamMemberDetailCount">TEAM MEMBER · 02 / 08</figcaption>
+      </figure>
+      <div class="member-profile-copy">
+        <small id="teamMemberDetailRole">团队成员 · TEAM MEMBER</small>
+        <h2 id="teamMemberDetailName">团队成员</h2>
+        <p id="teamMemberDetailIntro"></p>
+        <dl class="member-profile-facts">
+          <div><dt id="teamMemberSchoolLabel">学校</dt><dd id="teamMemberDetailSchool">桂林理工大学</dd></div>
+          <div><dt id="teamMemberStatusLabel">在读信息</dt><dd id="teamMemberDetailStatus"></dd></div>
+          <div><dt id="teamMemberGroupLabel">团队身份</dt><dd id="teamMemberDetailGroup">Healing City Lab 团队成员</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sheet" id="profileSheet" aria-hidden="true">
+  <button class="sheet-backdrop" data-close="profileSheet"></button>
+  <div class="sheet-panel profile-fullscreen-panel" role="dialog" aria-modal="true" aria-labelledby="profileSheetTitle">
+    <div class="grip"></div>
+    <div class="sheet-head">
+      <div><small data-i18n="profileSheetSmall">ABOUT THE LAB</small><h3 id="profileSheetTitle" data-i18n="profileSheetTitle">刘韩昕教授个人简介</h3></div>
+      <button class="sheet-close" data-close="profileSheet" data-i18n="close">关闭</button>
+    </div>
+    <div class="sheet-body profile-fullscreen-body" id="profileSheetBody">
+      <section class="profile-full-hero">
+        <figure>
+          <img src="assets/portrait.webp" alt="刘韩昕教授">
+          <figcaption>ABOUT THE LAB · HANXIN LIU</figcaption>
+        </figure>
+        <div class="profile-full-copy">
+          <small data-i18n="teamLeaderEn">TEAM LEADER</small>
+          <p class="profile-full-tagline"><span data-i18n="aboutTitleA">山水不是背景，</span><em data-i18n="aboutTitleB">而是身心恢复的媒介。</em></p>
+          <h2 id="profileFullName">刘韩昕</h2>
+          <p id="profileFullIntro"></p>
+          <div class="profile-full-facts" id="profileFullFacts"></div>
+          <nav class="profile-section-nav" aria-label="个人简介内容导航">
+            <button type="button" data-profile-jump="details" data-i18n="moreProfile">查看详细资料</button>
+            <button type="button" data-profile-achievement data-i18n="moreAchievements">查看科研成果概览</button>
+            <button type="button" data-profile-jump="directions" data-i18n="moreDirections">主要研究方向</button>
+          </nav>
+        </div>
+      </section>
+      <div class="overview-grid" id="profileDetailSection">
+        <div class="info-card"><h4 data-i18n="basicInfo">基本信息</h4><div class="info-table" id="basicInfoGrid"></div></div>
+        <div class="info-card"><h4 data-i18n="teachingResearch">教学科研情况</h4><p id="eduText"></p><p style="margin-top:10px" id="researchAreaText"></p></div>
+      </div>
+      <section class="profile-research-section" id="profileDirectionsSection">
+        <div class="profile-research-head">
+          <small>ABOUT THE LAB · RESEARCH DIRECTIONS</small>
+          <h4 data-i18n="profileResearchTitle">个人研究方向</h4>
+          <p data-i18n="profileResearchDesc">围绕自然联结、城市健康与多模态感知评估，持续探索疗愈环境的理论、方法与空间实践。</p>
+        </div>
+        <div class="news-feed profile-research-grid" id="profileResearchGrid"></div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="sheet" id="achievementSheet" aria-hidden="true">
+  <button class="sheet-backdrop" data-close="achievementSheet"></button>
+  <div class="sheet-panel">
+    <div class="grip"></div>
+    <div class="sheet-head">
+      <div><small data-i18n="achievementSmall">RESEARCH OVERVIEW</small><h3 data-i18n="achievementTitle">科研成果概览</h3></div>
+      <button class="sheet-close" data-close="achievementSheet" data-i18n="close">关闭</button>
+    </div>
+    <div class="sheet-tabs">
+      <button class="tab-btn active" data-achieve-tab="projects" data-i18n="tabProjects">科研项目</button>
+      <button class="tab-btn" data-achieve-tab="papers" data-i18n="tabPapers">代表论文</button>
+      <button class="tab-btn" data-achieve-tab="books" data-i18n="tabBooks">著作</button>
+    </div>
+    <div class="sheet-body achievement-body" id="achievementSwipeViewport">
+      <div class="achievement-track" id="achievementTrack">
+        <div data-achieve-panel="projects" class="achievement-slide list-card active" id="projectList" aria-hidden="false"></div>
+        <div data-achieve-panel="papers" class="achievement-slide list-card" id="paperListPanel" aria-hidden="true"></div>
+        <div data-achieve-panel="books" class="achievement-slide book-grid" id="bookGrid" aria-hidden="true"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sheet publication-sheet" id="readerSheet" aria-hidden="true">
+  <div class="sheet-backdrop publication-backdrop" aria-hidden="true"></div>
+  <section class="publication-panel" role="dialog" aria-modal="true" aria-labelledby="readerTitle">
+    <header class="publication-head">
+      <div class="publication-title-block">
+        <small>PUBLICATION</small>
+        <h2 id="readerTitle">论文成果</h2>
+        <p id="readerSourceMeta">高清原文 · 无需下载</p>
+      </div>
+    </header>
+
+    <nav class="publication-tabs" role="tablist" aria-label="论文查看方式" hidden aria-hidden="true">
+      <button id="readerOverviewTab" type="button" role="tab" aria-selected="false" aria-controls="readerOverviewPane" data-reader-tab="overview"></button>
+      <button class="active" id="readerWebTab" type="button" role="tab" aria-selected="true" aria-controls="readerWebPane" data-reader-tab="web"></button>
+    </nav>
+
+    <div class="publication-body">
+      <section class="publication-pane" id="readerOverviewPane" role="tabpanel" aria-labelledby="readerOverviewTab" hidden>
+        <div id="readerOverview"></div>
+      </section>
+      <section class="publication-pane reader-web-pane" id="readerWebPane" role="tabpanel" aria-labelledby="readerWebTab">
+        <span id="readerPreviewMeta" hidden aria-hidden="true"></span>
+        <button class="reader-preview-button" id="openFullReader" type="button" aria-label="再次点击进入论文原文阅读">
+          <img id="readerPreviewImage" src="" alt="论文第一页预览">
+          <span class="reader-preview-overlay">
+            <b>再次点击进入论文原文</b>
+            <small>进入后上下滑动逐页翻阅</small>
+          </span>
+        </button>
+        <p class="reader-preview-status" id="readerPreviewStatus" aria-live="polite"></p>
+      </section>
+    </div>
+  </section>
+</div>
+
+<div class="full-reader" id="fullReader" aria-hidden="true">
+  <header class="full-reader-head">
+    <div class="full-reader-title">
+      <small data-i18n="readerFullSmall">FULL TEXT</small>
+      <h3 id="fullReaderTitle">论文原文</h3>
+    </div>
+    <div class="reader-page-counter" id="readerPageCounter" aria-live="polite">1 / 1</div>
+    <div class="reader-zoom-indicator" id="readerZoomIndicator" aria-label="文章缩放比例" aria-live="polite">100%</div>
+    <div class="reader-progress-track" aria-hidden="true"><span id="readerProgressBar"></span></div>
+  </header>
+  <main class="full-reader-scroll" id="readerScroll">
+    <div class="reader-pages" id="readerPages" aria-live="polite"></div>
+  </main>
+</div>
+
+<div class="direction-story" id="directionStory" role="dialog" aria-modal="true" aria-labelledby="directionStoryTitle" aria-describedby="directionStoryDescription" aria-hidden="true" hidden>
+  <button class="direction-story-backdrop" id="directionStoryBackdrop" type="button" aria-label="关闭研究方向展示页"></button>
+  <article class="direction-story-shell" id="directionStoryShell">
+    <header class="direction-story-head">
+      <span id="directionStoryCount">01 / 03</span>
+      <small>RESEARCH DIRECTION</small>
+      <button id="directionStoryClose" type="button" aria-label="关闭研究方向展示页">×</button>
+    </header>
+    <div class="direction-story-page" id="directionStoryPage">
+      <figure class="direction-story-visual">
+        <img id="directionStoryImage" src="" alt="">
+        <figcaption id="directionStoryCaption">COLLAGE / RESEARCH MATERIAL</figcaption>
+      </figure>
+      <div class="direction-story-scroll-hint" id="directionStoryScrollHint" aria-hidden="true">
+        <span>上下滑动查看完整拼贴</span>
+        <i>↓</i>
+      </div>
+      <section class="direction-story-copy">
+        <small id="directionStoryKicker">URBAN DESIGN / 01</small>
+        <h2 id="directionStoryTitle">城市设计</h2>
+        <p id="directionStoryDescription"></p>
+        <div class="direction-story-keywords" id="directionStoryKeywords"></div>
+      </section>
+    </div>
+    <nav class="direction-story-nav" aria-label="研究方向切换">
+      <button id="directionStoryPrev" type="button"><span aria-hidden="true">←</span><small>PREVIOUS</small></button>
+      <div class="direction-story-dots" id="directionStoryDots" aria-hidden="true"></div>
+      <button id="directionStoryNext" type="button"><small>NEXT</small><span aria-hidden="true">→</span></button>
+    </nav>
+  </article>
+</div>
+
+<div class="brand-story open is-entry-screen" id="brandStory" role="dialog" aria-modal="true" aria-labelledby="brandStoryTitle" aria-describedby="brandStoryDescription" aria-hidden="false">
+  <button class="brand-story-backdrop" id="brandStoryBackdrop" type="button" aria-label="关闭 Logo 设计说明"></button>
+  <section class="brand-story-panel" id="brandStoryPanel">
+    <button class="brand-story-close" id="brandStoryClose" type="button" aria-label="关闭 Logo 设计说明">
+      <span aria-hidden="true">×</span>
+    </button>
+    <div class="brand-story-visual">
+      <div class="brand-story-logo-frame">
+        <span class="brand-story-axis axis-x" aria-hidden="true"></span>
+        <span class="brand-story-axis axis-y" aria-hidden="true"></span>
+        <img id="brandStoryLogo" src="assets/healing-city-icon.png?v=20260728-old-logo-final" alt="">
+      </div>
+    </div>
+    <div class="brand-story-copy">
+      <small>BRAND IDENTITY · 01</small>
+      <h2 id="brandStoryTitle"><span>HEALING</span><span>CITY LAB</span></h2>
+      <p class="brand-story-subtitle">城市疗愈与恢复性环境研究</p>
+      <div class="brand-story-rule" aria-hidden="true"></div>
+      <h3>LOGO CONCEPT</h3>
+      <p id="brandStoryDescription">LOGO以树干、枝脉与根系贯通城市建筑肌理，象征自然生命力融入城市空间。方形构图呼应网站理性的界面秩序，黄绿配色传达生态修复、身心疗愈与人境共生的研究愿景。</p>
+    </div>
+    <button class="brand-entry-trigger" id="brandEntryTrigger" type="button" aria-label="轻触进入网页">
+      <span class="brand-entry-touch" aria-hidden="true"><i></i></span>
+      <span><b>轻触进入网页</b><small>TAP TO ENTER</small></span>
+    </button>
+  </section>
+</div>
+
+<audio id="bgMusic" src="assets/audio/background-music.mp3" preload="auto" playsinline></audio>
+<div class="translation-toast" id="translationToast" role="status" aria-live="polite"></div>
+<div id="google_translate_element" class="google-translate-engine" aria-hidden="true"></div>
+<script src="data.js?v=20260723-hd-thumbnails-v4"></script>
+<script src="app.js?v=20260811-healing-updates-v21"></script>
+</body>
+</html>

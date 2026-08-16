@@ -1,0 +1,92 @@
+/*
+ * Final mobile-only presentation.
+ * Wide screens retain the original phone composition in a centered 430px canvas.
+ */
+@media (min-width:431px){
+  html{
+    background:#050b08;
+  }
+
+  body{
+    width:430px;
+    max-width:430px;
+    margin:0 auto;
+    box-shadow:0 0 70px rgba(0,0,0,.48);
+  }
+
+  .app{
+    width:430px;
+    max-width:430px;
+    margin:0 auto;
+  }
+
+  .section-intro-portal,
+  .section-intro-portal-paper,
+  .library-history-panel{
+    width:100%!important;
+    margin-left:0!important;
+    margin-right:0!important;
+  }
+
+  .sheet-panel{
+    left:50%;
+    right:auto;
+    width:430px;
+    max-width:100%;
+    transform:translateX(-50%);
+  }
+
+  .direction-story-shell,
+  .publication-panel,
+  .project-showcase-shell,
+  .project-editorial-shell,
+  .brand-story-panel,
+  .brand-story.is-entry-screen .brand-story-panel,
+  #profileSheet .profile-fullscreen-panel{
+    width:430px!important;
+    max-width:430px!important;
+  }
+
+  .copyright-page,
+  .full-reader{
+    top:0;
+    right:auto;
+    bottom:0;
+    left:50%;
+    width:430px;
+    max-width:430px;
+    transform:translateX(-50%);
+  }
+
+  .copyright-page.open{
+    transform:translateX(-50%);
+  }
+
+  #readerSheet .reader-fullscreen-panel{
+    top:0!important;
+    right:auto!important;
+    bottom:0!important;
+    left:50%!important;
+    width:430px!important;
+    max-width:430px!important;
+    transform:translateX(-50%)!important;
+  }
+
+  .back-gesture-rail{
+    left:calc(50% - 215px);
+  }
+
+  body .gesture-cue.gesture-cue--coach{
+    top:0!important;
+    right:auto!important;
+    bottom:0!important;
+    left:50%!important;
+    width:430px!important;
+    min-height:100dvh;
+    transform:translate3d(-50%,8px,0)!important;
+  }
+
+  body .gesture-cue.gesture-cue--coach.is-visible{
+    transform:translate3d(-50%,0,0)!important;
+  }
+}
