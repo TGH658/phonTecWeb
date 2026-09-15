@@ -41,13 +41,13 @@ const zhText = {
   newsKicker:'HEALING NEWS EXPRESS', newsTitleA:'疗愈研究，', newsTitleB:'正在发生。', newsDesc:'汇集团队近期浏览的新文章与研究线索，为访客持续推送疗愈环境、城市健康与生态设计的新观点。', newsStatus:'TEAM CURATED · 持续更新', profileResearchTitle:'主要研究方向', profileResearchDesc:'完整展示城市设计、城市公共空间与疗愈环境、生态园林城市三项主要研究方向，点击卡片进入全屏滑动浏览。',
   portalHealing:'疗愈新闻', portalTeam:'团队动态', portalMore:'查看详情',
   builtProjectsKicker:'HEALING PROJECTS', builtProjectsTitleA:'疗愈项目', builtProjectsTitleB:'', builtProjectsDesc:'呈现团队已完成和正在推进的疗愈环境实践与竞赛探索，点击项目卡片进入完整项目长页。', builtProjectCountLabel:'个项目内容', competitionTitle:'竞赛项目',
-  teamKicker:'THE HEALING CITY TEAM', teamTitleA:'团队介绍', teamTitleB:'', teamDesc:'由刘韩昕教授与七位研究生共同组成，点击成员头像进入个人介绍。', teamCountLabel:'位团队成员', teamLeader:'负责人 / 刘韩昕', teamLeaderEn:'TEAM LEADER', teamRoster:'团队成员', teamRosterEn:'TEAM MEMBERS', teamOrder:'排名不分先后 · TEAM MEMBERS',
+  teamKicker:'THE HEALING CITY TEAM', teamTitleA:'团队介绍', teamTitleB:'', teamDesc:'由刘韩昕教授与六位研究生共同组成，点击成员头像进入个人介绍。', teamCountLabel:'位团队成员', teamLeader:'负责人 / 刘韩昕', teamLeaderEn:'TEAM LEADER', teamRoster:'团队成员', teamRosterEn:'TEAM MEMBERS', teamOrder:'排名不分先后 · TEAM MEMBERS',
   aboutKicker:'ABOUT THE LAB', aboutTitleA:'山水不是背景，', aboutTitleB:'而是身心恢复的媒介。', school:'桂林理工大学',
   moreProfile:'查看详细资料', moreAchievements:'查看科研成果概览', moreDirections:'主要研究方向',
   projectsKicker:'PUBLICATIONS / PAPERS', projectsTitle:'论文成果', projectsDesc:'19篇论文原件完整保留。点击成果卡片查看中间页，再次点击进入原文阅读。',
   paperCountLabel:'篇论文成果', readerNote:'点击成果卡片查看论文中间页，再次点击进入原文阅读；上下滑动逐页翻阅，双指缩放查看细节。',
   libraryHistoryKicker:'READING HISTORY', libraryHistoryTitle:'过往内容记录', libraryHistoryHint:'点击回看',
-  libraryHistoryItem1:'古典园林与私密活动', libraryHistoryItem2:'榕湖景观提升项目', libraryHistoryItem3:'像素绿洲', libraryHistoryItem4:'空间叙事理论下城市物质文化遗产价值评估与保护策略', libraryHistoryItem5:'山水情境疗愈工坊具身体验计划', libraryHistoryItem6:'花笺寄情，春日抚心', libraryHistoryItem7:'榕湖｜叠彩疗愈工坊体验',
+  libraryHistoryItem1:'古典园林与私密活动', libraryHistoryItem2:'榕湖景观提升项目', libraryHistoryItem3:'像素绿洲', libraryHistoryItem4:'私密性活动视角下环境恢复性效应测度与感知偏好研究', libraryHistoryItem5:'山水情境疗愈工坊具身体验计划', libraryHistoryItem6:'花笺寄情，春日抚心', libraryHistoryItem7:'榕湖｜叠彩疗愈工坊体验',
   navResearch:'研究方向', navNews:'疗愈动态', navPapers:'论文成果', navProjects:'疗愈项目', navTeam:'团队介绍', sectionArrival:'已进入新板块',
   profileSheetSmall:'ABOUT THE LAB', profileSheetTitle:'刘韩昕教授个人简介', close:'关闭', basicInfo:'基本信息', teachingResearch:'教学科研情况',
   achievementSmall:'RESEARCH OVERVIEW', achievementTitle:'科研成果概览', tabProjects:'科研项目', tabPapers:'代表论文', tabBooks:'著作',
@@ -70,13 +70,13 @@ const zhHantText = {
   newsKicker:'HEALING NEWS EXPRESS', newsTitleA:'療癒研究，', newsTitleB:'正在發生。', newsDesc:'匯集團隊近期瀏覽的新文章與研究線索，為訪客持續推送療癒環境、城市健康與生態設計的新觀點。', newsStatus:'TEAM CURATED · 持續更新', profileResearchTitle:'主要研究方向', profileResearchDesc:'完整展示城市設計、城市公共空間與療癒環境、生態園林城市三項主要研究方向，點擊卡片進入全螢幕滑動瀏覽。',
   portalHealing:'療癒新聞', portalTeam:'團隊動態', portalMore:'查看詳情',
   builtProjectsKicker:'HEALING PROJECTS', builtProjectsTitleA:'療癒項目', builtProjectsTitleB:'', builtProjectsDesc:'呈現團隊已完成和正在推進的療癒環境實踐與競賽探索，點擊項目卡片進入完整項目長頁。', builtProjectCountLabel:'個項目內容', competitionTitle:'競賽項目',
-  teamKicker:'THE HEALING CITY TEAM', teamTitleA:'團隊介紹', teamTitleB:'', teamDesc:'由劉韓昕教授與七位研究生共同組成，點擊成員頭像進入個人介紹。', teamCountLabel:'位團隊成員', teamLeader:'負責人 / 劉韓昕', teamLeaderEn:'TEAM LEADER', teamRoster:'團隊成員', teamRosterEn:'TEAM MEMBERS', teamOrder:'排名不分先後 · TEAM MEMBERS',
+  teamKicker:'THE HEALING CITY TEAM', teamTitleA:'團隊介紹', teamTitleB:'', teamDesc:'由劉韓昕教授與六位研究生共同組成，點擊成員頭像進入個人介紹。', teamCountLabel:'位團隊成員', teamLeader:'負責人 / 劉韓昕', teamLeaderEn:'TEAM LEADER', teamRoster:'團隊成員', teamRosterEn:'TEAM MEMBERS', teamOrder:'排名不分先後 · TEAM MEMBERS',
   aboutKicker:'ABOUT THE LAB', aboutTitleA:'山水不是背景，', aboutTitleB:'而是身心恢復的媒介。', school:'桂林理工大學',
   moreProfile:'查看詳細資料', moreAchievements:'查看科研成果概覽', moreDirections:'主要研究方向',
   projectsKicker:'PUBLICATIONS / PAPERS', projectsTitle:'論文成果', projectsDesc:'19篇論文原件完整保留。點擊成果卡片查看中間頁，再次點擊進入原文閱讀。',
   paperCountLabel:'篇論文成果', readerNote:'點擊成果卡片查看論文中間頁，再次點擊進入原文閱讀；上下滑動逐頁翻閱，雙指縮放查看細節。',
   libraryHistoryKicker:'READING HISTORY', libraryHistoryTitle:'過往內容記錄', libraryHistoryHint:'點擊回看',
-  libraryHistoryItem1:'古典園林與私密活動', libraryHistoryItem2:'榕湖景觀提升項目', libraryHistoryItem3:'像素綠洲', libraryHistoryItem4:'空間敘事理論下城市物質文化遺產價值評估與保護策略', libraryHistoryItem5:'山水情境療癒工坊具身體驗計劃', libraryHistoryItem6:'花箋寄情，春日撫心', libraryHistoryItem7:'榕湖｜疊彩療癒工坊體驗',
+  libraryHistoryItem1:'古典園林與私密活動', libraryHistoryItem2:'榕湖景觀提升項目', libraryHistoryItem3:'像素綠洲', libraryHistoryItem4:'私密性活動視角下環境恢復性效應測度與感知偏好研究', libraryHistoryItem5:'山水情境療癒工坊具身體驗計劃', libraryHistoryItem6:'花箋寄情，春日撫心', libraryHistoryItem7:'榕湖｜疊彩療癒工坊體驗',
   navResearch:'研究方向', navNews:'療癒動態', navPapers:'論文成果', navProjects:'療癒項目', navTeam:'團隊介紹', sectionArrival:'已進入新板塊',
   profileSheetSmall:'ABOUT THE LAB', profileSheetTitle:'劉韓昕教授個人簡介', close:'關閉', basicInfo:'基本資料', teachingResearch:'教學科研情況',
   achievementSmall:'RESEARCH OVERVIEW', achievementTitle:'科研成果概覽', tabProjects:'科研項目', tabPapers:'代表論文', tabBooks:'著作',
@@ -98,13 +98,13 @@ const enText = {
   newsKicker:'HEALING NEWS EXPRESS', newsTitleA:'Healing research, ', newsTitleB:'as it happens.', newsDesc:'A team-curated stream of newly discovered articles and research leads across healing environments, urban health and ecological design.', newsStatus:'TEAM CURATED · UPDATED REGULARLY', profileResearchTitle:'Major Research Directions', profileResearchDesc:'The three retained directions are Urban Design, Urban Public Space & Healing Environments, and Ecological Garden City. Open a card for the full-screen swipe story.',
   portalHealing:'Healing News', portalTeam:'Team Updates', portalMore:'View details',
   builtProjectsKicker:'HEALING PROJECTS', builtProjectsTitleA:'Healing Projects', builtProjectsTitleB:'', builtProjectsDesc:'Completed, ongoing and competition-based healing-environment practices. Open a card for the full project story.', builtProjectCountLabel:'projects', competitionTitle:'Competition Projects',
-  teamKicker:'THE HEALING CITY TEAM', teamTitleA:'Team', teamTitleB:'', teamDesc:'Hanxin Liu and seven graduate researchers. Open a portrait for the member profile.', teamCountLabel:'team members', teamLeader:'Team Leader / Hanxin Liu', teamLeaderEn:'TEAM LEADER', teamRoster:'Team Members', teamRosterEn:'TEAM MEMBERS', teamOrder:'IN NO PARTICULAR ORDER · TEAM MEMBERS',
+  teamKicker:'THE HEALING CITY TEAM', teamTitleA:'Team', teamTitleB:'', teamDesc:'Hanxin Liu and six graduate researchers. Open a portrait for the member profile.', teamCountLabel:'team members', teamLeader:'Team Leader / Hanxin Liu', teamLeaderEn:'TEAM LEADER', teamRoster:'Team Members', teamRosterEn:'TEAM MEMBERS', teamOrder:'IN NO PARTICULAR ORDER · TEAM MEMBERS',
   aboutKicker:'ABOUT THE LAB', aboutTitleA:'Shanshui is not a backdrop, ', aboutTitleB:'but a medium for restoration.', school:'Guilin University of Technology',
   moreProfile:'View detailed profile', moreAchievements:'View research overview', moreDirections:'Major research directions',
   projectsKicker:'PUBLICATIONS / PAPERS', projectsTitle:'Academic Publications', projectsDesc:'All 19 original papers are preserved. Tap a card for the intermediate page, then tap again to open the full text.',
   paperCountLabel:'papers and research outputs', readerNote:'Tap a card for the paper page, then tap again to open the full text. Swipe vertically between pages and pinch to zoom.',
   libraryHistoryKicker:'READING HISTORY', libraryHistoryTitle:'Previous entries', libraryHistoryHint:'Tap to revisit',
-  libraryHistoryItem1:'Classical Gardens and Privacy Activities', libraryHistoryItem2:'Ronghu Landscape Enhancement', libraryHistoryItem3:'Pixel Oasis', libraryHistoryItem4:'Spatial Narrative and Urban Heritage Protection', libraryHistoryItem5:'Shanshui Healing Workshop', libraryHistoryItem6:'Floral Notes · A Spring Healing Workshop', libraryHistoryItem7:'Ronghu | Diecai Healing Workshop Experience',
+  libraryHistoryItem1:'Classical Gardens and Privacy Activities', libraryHistoryItem2:'Ronghu Landscape Enhancement', libraryHistoryItem3:'Pixel Oasis', libraryHistoryItem4:'Restorative Effects and Perceptual Preference in Guilin Waterfront Space', libraryHistoryItem5:'Shanshui Healing Workshop', libraryHistoryItem6:'Floral Notes · A Spring Healing Workshop', libraryHistoryItem7:'Ronghu | Diecai Healing Workshop Experience',
   navResearch:'Research', navNews:'Healing Updates', navPapers:'Outputs', navProjects:'Healing Projects', navTeam:'Team', sectionArrival:'NOW VIEWING · NEW SECTION',
   profileSheetSmall:'ABOUT THE LAB', profileSheetTitle:'Hanxin Liu · Full Profile', close:'Close', basicInfo:'Basic Information', teachingResearch:'Teaching & Research',
   achievementSmall:'RESEARCH OVERVIEW', achievementTitle:'Research Overview', tabProjects:'Projects', tabPapers:'Selected Papers', tabBooks:'Books',
@@ -171,6 +171,46 @@ const updateShowcaseArticle = document.getElementById('updateShowcaseArticle');
 const updateShowcaseStream = document.getElementById('updateShowcaseStream');
 
 const healingUpdateData = {
+  'teachers-day-micro-landscape-2026': {
+    kicker:"TEACHERS' DAY · MICRO-LANDSCAPE WORKSHOP",
+    dateZh:'2026年9月10日（教师节）',
+    dateHant:'2026年9月10日（教師節）',
+    dateEn:'10 SEPTEMBER 2026 · TEACHERS’ DAY',
+    placeZh:'桂林市飞凤小学',
+    placeHant:'桂林市飛鳳小學',
+    placeEn:'Feifeng Primary School · Guilin',
+    titleZh:'教师节专题｜飞凤小学微景观制作活动',
+    titleHant:'教師節專題｜飛鳳小學微景觀製作活動',
+    titleEn:'Teachers’ Day Special · Feifeng Primary School Micro-landscape Workshop',
+    descZh:'2026年9月10日教师节，Healing City Lab 在桂林市飞凤小学开展微景观制作活动。活动以自然联结与亲自然疗愈为线索，通过植物配置、微型场景营造与现场交流，让教师在动手创作中感受绿色环境带来的放松、愉悦与节日仪式感，并完成属于自己的微景观作品。',
+    descHant:'2026年9月10日教師節，Healing City Lab 在桂林市飛鳳小學開展微景觀製作活動。活動以自然聯結與親自然療癒為線索，透過植物配置、微型場景營造與現場交流，讓教師在動手創作中感受綠色環境帶來的放鬆、愉悅與節日儀式感，並完成屬於自己的微景觀作品。',
+    descEn:'On Teachers’ Day, 10 September 2026, Healing City Lab held a micro-landscape workshop at Feifeng Primary School in Guilin. Framed by nature connectedness and nature-based healing, the activity combined planting, miniature scene-making and shared reflection, allowing teachers to experience relaxation, pleasure and a meaningful festive ritual through hands-on creation.',
+    sectionsZh:[
+      {title:'自然联结与疗愈导入',body:'活动从自然联结与亲自然疗愈出发，通过现场讲解将植物、微景观与日常身心恢复联系起来，为后续制作建立清晰的体验线索。'},
+      {title:'微景观制作与共同创作',body:'参与教师围绕植物、土壤、容器与微型场景进行组合，在材料选择、种植与细节营造中完成个人作品，并通过交流与协作共享制作过程。'},
+      {title:'作品完成与教师节纪念',body:'从现场制作到成品展示，微景观成为教师节当天可被触摸、观察并带回日常生活的自然媒介，也记录了团队与飞凤小学共同开展疗愈实践的一次真实现场。'}
+    ],
+    sectionsHant:[
+      {title:'自然聯結與療癒導入',body:'活動從自然聯結與親自然療癒出發，透過現場講解將植物、微景觀與日常身心恢復連結起來，為後續製作建立清晰的體驗線索。'},
+      {title:'微景觀製作與共同創作',body:'參與教師圍繞植物、土壤、容器與微型場景進行組合，在材料選擇、種植與細節營造中完成個人作品，並透過交流與協作共享製作過程。'},
+      {title:'作品完成與教師節紀念',body:'從現場製作到成品展示，微景觀成為教師節當天可被觸摸、觀察並帶回日常生活的自然媒介，也記錄了團隊與飛鳳小學共同開展療癒實踐的一次真實現場。'}
+    ],
+    sectionsEn:[
+      {title:'Nature connectedness and healing introduction',body:'The workshop began with a short introduction linking plants, miniature landscapes and everyday restoration through the lens of nature connectedness and nature-based healing.'},
+      {title:'Hands-on micro-landscape making',body:'Teachers composed plants, soil, containers and miniature scene elements, developing their own pieces through planting, detailed arrangement and shared making.'},
+      {title:'Completed works as a Teachers’ Day memory',body:'From the making process to the final group display, each micro-landscape became a tangible natural medium that could be observed, cared for and taken back into everyday life.'}
+    ],
+    images:[
+      'assets/updates/teachers-day-micro-landscape-2026/poster.webp',
+      'assets/updates/teachers-day-micro-landscape-2026/02.webp',
+      'assets/updates/teachers-day-micro-landscape-2026/03.webp',
+      'assets/updates/teachers-day-micro-landscape-2026/04.webp',
+      'assets/updates/teachers-day-micro-landscape-2026/05.webp'
+    ],
+    captionsZh:['教师节专题活动海报','活动现场：自然联结与亲自然疗愈内容导入','微景观制作：植物、土壤与容器的现场组合','教师参与制作与现场交流','活动合影与微景观作品展示'],
+    captionsHant:['教師節專題活動海報','活動現場：自然聯結與親自然療癒內容導入','微景觀製作：植物、土壤與容器的現場組合','教師參與製作與現場交流','活動合影與微景觀作品展示'],
+    captionsEn:['Teachers’ Day special workshop poster','Workshop introduction to nature connectedness and nature-based healing','Hands-on composition of plants, soil and containers','Teachers making micro-landscapes and exchanging ideas','Group presentation of completed micro-landscape works']
+  },
   'flower-letter-2026': {
     kicker:'HEALING FLORAL WORKSHOP',
     dateZh:'2026年4月26日',
@@ -411,6 +451,34 @@ const competitionProjects = [
     captionsHant:['像素綠洲高清競賽展板'],
     captionsEn:['Pixel Oasis Competition Board'],
     images:['assets/projects/pixel-oasis/cover-hd.webp']
+  },
+  {
+    index:'02',
+    slug:'biophilic-micro-landscape',
+    kicker:'BIOPHILIC DESIGN / MICRO-LANDSCAPE',
+    titleZh:'亲生物设计：微景观营造',
+    titleHant:'親生物設計：微景觀營造',
+    titleEn:'Biophilic Design: Micro-Landscape Creation',
+    descZh:'从自然联结与亲生物设计理论出发，系统呈现自然进入空间、自然类比与空间自然属性，并以教师节微景观制作实践完成从理论到小尺度景观营造的转化。',
+    descHant:'從自然聯結與親生物設計理論出發，系統呈現自然進入空間、自然類比與空間自然屬性，並以教師節微景觀製作實踐完成從理論到小尺度景觀營造的轉化。',
+    descEn:'From Human-Nature Connection to Small-Scale Landscape Making: a 21-page project presenting biophilic design theory, nature connectedness and hands-on micro-landscape creation.',
+    tagZh:'竞赛项目',
+    tagHant:'競賽項目',
+    tagEn:'COMPETITION',
+    coverImage:'assets/projects/biophilic-micro-landscape/cover.webp',
+    pdfPath:'pdfs/biophilic-design-micro-landscape.pdf',
+    captionsZh:[
+      '亲生物设计：微景观营造','亲生物设计的理论起源','亲生物设计的心理与生理效益','自然联结与五条路径','亲生物设计：不止于植物','空间中的自然','水体、植物、自然材料与自然光','自然类比','仿生形态、触觉纹理与自然形状','空间中的自然类比体验','空间的自然属性','亲生物设计实践','疗愈教室中的微景观制作','步骤01：轻石铺底','步骤02：蛭石覆盖','步骤03：土壤塑坡','步骤04：植物栽植','步骤05：苔藓与装饰沙','步骤06：摆件与收尾','亲生物疗愈教室实践','结束页'
+    ],
+    captionsHant:[
+      '親生物設計：微景觀營造','親生物設計的理論起源','親生物設計的心理與生理效益','自然聯結與五條路徑','親生物設計：不止於植物','空間中的自然','水體、植物、自然材料與自然光','自然類比','仿生形態、觸覺紋理與自然形狀','空間中的自然類比體驗','空間的自然屬性','親生物設計實踐','療癒教室中的微景觀製作','步驟01：輕石鋪底','步驟02：蛭石覆蓋','步驟03：土壤塑坡','步驟04：植物栽植','步驟05：苔蘚與裝飾沙','步驟06：擺件與收尾','親生物療癒教室實踐','結束頁'
+    ],
+    captionsEn:[
+      'Biophilic Design: Micro-Landscape Creation','Theoretical Origins of Biophilic Design','Psychological and Physiological Benefits','Nature Connectedness and Five Pathways','Biophilic Design: Beyond the Plants','Nature in the Space','Water Features, Plants, Materials and Natural Light','Natural Analogues','Biomorphic Forms, Tactile Textures and Shapes Seen in Nature','Natural Analogues and Spatial Interaction','Nature of the Space','Biophilic Design in Action','Micro-Landscape Making in a Healing Classroom','Step 01: Add the Lightweight Stone Base','Step 02: Add the Vermiculite Layer','Step 03: Shape the Soil Slope','Step 04: Plant the Plants','Step 05: Add Moss and Decorative Sand','Step 06: Add Miniatures and Finish','Biophilic Healing Classroom','Thanks For Watching'
+    ],
+    images:[
+      'assets/projects/biophilic-micro-landscape/page-01.webp','assets/projects/biophilic-micro-landscape/page-02.webp','assets/projects/biophilic-micro-landscape/page-03.webp','assets/projects/biophilic-micro-landscape/page-04.webp','assets/projects/biophilic-micro-landscape/page-05.webp','assets/projects/biophilic-micro-landscape/page-06.webp','assets/projects/biophilic-micro-landscape/page-07.webp','assets/projects/biophilic-micro-landscape/page-08.webp','assets/projects/biophilic-micro-landscape/page-09.webp','assets/projects/biophilic-micro-landscape/page-10.webp','assets/projects/biophilic-micro-landscape/page-11.webp','assets/projects/biophilic-micro-landscape/page-12.webp','assets/projects/biophilic-micro-landscape/page-13.webp','assets/projects/biophilic-micro-landscape/page-14.webp','assets/projects/biophilic-micro-landscape/page-15.webp','assets/projects/biophilic-micro-landscape/page-16.webp','assets/projects/biophilic-micro-landscape/page-17.webp','assets/projects/biophilic-micro-landscape/page-18.webp','assets/projects/biophilic-micro-landscape/page-19.webp','assets/projects/biophilic-micro-landscape/page-20.webp','assets/projects/biophilic-micro-landscape/page-21.webp'
+    ]
   }
 ];
 const featureProjects = [
@@ -427,7 +495,10 @@ const featureProjects = [
     tagZh:'具身体验',
     tagHant:'具身體驗',
     tagEn:'EMBODIED EXPERIENCE',
-    images:['assets/projects/shanshui-workshop/poster-2026.webp']
+    captionsZh:['山水情境疗愈工坊具身体验计划海报','设备佩戴与参与者静坐体验','具身感知设备与现场记录','参与者佩戴设备开展环境体验','户外场景中的设备测量与观察','参与者与研究设备现场展示'],
+    captionsHant:['山水情境療癒工坊具身體驗計劃海報','設備佩戴與參與者靜坐體驗','具身感知設備與現場記錄','參與者佩戴設備開展環境體驗','戶外場景中的設備測量與觀察','參與者與研究設備現場展示'],
+    captionsEn:['Shanshui Healing Workshop poster','Participant wearing sensing equipment during a seated session','Embodied sensing equipment and field recording','Participant wearing equipment during environmental experience','Outdoor measurement and observation session','Participant and research equipment demonstration'],
+    images:['assets/projects/shanshui-workshop/poster-2026.webp','assets/healing-plan/01.jpg','assets/healing-plan/02.jpg','assets/healing-plan/03.jpg','assets/healing-plan/04.jpg','assets/healing-plan/05.jpg']
   }
 ];
 const allShowcaseProjects = [...builtProjects,...competitionProjects,...featureProjects];
@@ -507,9 +578,9 @@ const portalStreams = {
     },
     {
       date:'2026.07.16',
-      titleZh:'团队成员页面更新：七位研究生完整介绍上线',
-      titleHant:'團隊成員頁面更新：七位研究生完整介紹上線',
-      titleEn:'Team page updated with seven postgraduate profiles',
+      titleZh:'团队成员页面更新：六位研究生完整介绍上线',
+      titleHant:'團隊成員頁面更新：六位研究生完整介紹上線',
+      titleEn:'Team page updated with six postgraduate profiles',
       image:'assets/team/han-zhuang.webp',
       action:{type:'section',target:'team'}
     },
@@ -595,15 +666,31 @@ const projectEditorialData = {
       {title:'Combinable dopamine scenes',body:'Modular elements support resting, play, planting and small events while preserving flexibility for future change.'}
     ]
   },
+  'biophilic-micro-landscape':{
+    year:'2026',locationZh:'设计研究与微景观实践',locationHant:'設計研究與微景觀實踐',locationEn:'Design Research and Micro-Landscape Practice',
+    statusZh:'竞赛项目 · PDF展示',statusHant:'競賽項目 · PDF展示',statusEn:'Competition Project · PDF Showcase',
+    sectionsZh:[
+      {title:'从自然联结进入亲生物设计',body:'项目从亲生物理论与自然联结出发，梳理接触、情感、美感、意义与关怀等人与自然建立联系的路径，并进一步讨论亲生物设计的心理与生理效益。'},
+      {title:'三类亲生物空间策略',body:'内容以“空间中的自然、自然类比、空间的自然属性”为核心框架，结合植物、水体、自然材料、自然光、仿生形态、触觉纹理、庇护与游走等策略理解人与自然环境的互动。'},
+      {title:'从理论到微景观营造',body:'后半部分将理论转化为可操作的微景观制作流程，从轻石铺底、蛭石覆盖和土壤塑坡，到植物栽植、苔藓与装饰沙、摆件收尾，呈现小尺度自然营造的完整实践过程。'}
+    ],
+    sectionsEn:[
+      {title:'From nature connectedness to biophilic design',body:'The project begins with biophilia and nature connectedness, including contact, emotion, beauty, meaning and compassion, before linking these ideas to psychological and physiological benefits.'},
+      {title:'Three biophilic spatial strategies',body:'Nature in the Space, Natural Analogues and Nature of the Space structure the design framework through planting, water, natural materials, light, biomorphic forms, tactile textures, refuge and meandering movement.'},
+      {title:'From theory to micro-landscape making',body:'The final section translates theory into a hands-on sequence: lightweight stone, vermiculite, shaped soil, planting, moss and decorative sand, then miniatures and finishing.'}
+    ]
+  },
   'shanshui-healing-workshop':{
     year:'2026',locationZh:'中国 · 桂林 · 榕湖与叠彩',locationHant:'中國 · 桂林 · 榕湖與疊彩',locationEn:'Ronghu & Diecai, Guilin, China',
     statusZh:'具身体验计划',statusHant:'具身體驗計劃',statusEn:'Embodied Program',
     sectionsZh:[
       {title:'把山水转化为具身体验',body:'工坊以桂林山水为真实情境，邀请参与者通过行走、观察、感知记录与互动任务重新认识日常环境。自然景观不只是观看对象，也成为情绪调节和身体认知发生的媒介。'},
+      {title:'设备与参与者展示',body:'恢复现场设备佩戴、参与者静坐与户外实验记录等图像，直观呈现具身感知设备如何进入真实场景，并与参与者的环境体验同步开展。'},
       {title:'科技疗愈融入日常',body:'计划将感知反馈与体验记录融入活动过程，尝试建立从身体反应、主观感受到空间特征的关联，为疗愈环境研究与公众参与之间搭建可持续的实践路径。'}
     ],
     sectionsEn:[
       {title:'Turning shanshui into embodied experience',body:'The workshop uses Guilin’s real landscape as a setting for walking, observation, sensory recording and interaction.'},
+      {title:'Equipment and participant demonstration',body:'Field photographs show sensing equipment, seated sessions and outdoor experimental records, making the embodied research process visible in real settings.'},
       {title:'Technology-assisted healing in daily life',body:'Perceptual feedback and experience records connect bodily response, subjective feeling and spatial characteristics within a public-facing research program.'}
     ]
   }
@@ -613,7 +700,6 @@ const teamMembers = [
   {nameZh:'韩庄',nameEn:'Zhuang Han',degreeZh:'桂林理工大学2024级城乡规划学在读研究生',degreeHant:'桂林理工大學2024級城鄉規劃學在讀研究生',degreeEn:'2024 graduate student in Urban and Rural Planning, Guilin University of Technology',image:'assets/team/han-zhuang.webp'},
   {nameZh:'于晨阳',nameEn:'Chenyang Yu',degreeZh:'桂林理工大学2024级风景园林在读研究生',degreeHant:'桂林理工大學2024級風景園林在讀研究生',degreeEn:'2024 graduate student in Landscape Architecture, Guilin University of Technology',image:'assets/team/yu-chenyang.webp'},
   {nameZh:'潘恒恒',nameEn:'Hengheng Pan',degreeZh:'桂林理工大学2025级风景园林在读研究生',degreeHant:'桂林理工大學2025級風景園林在讀研究生',degreeEn:'2025 graduate student in Landscape Architecture, Guilin University of Technology',image:'assets/team/pan-hengheng.webp'},
-  {nameZh:'蔡嘉攀',nameEn:'Jiapan Cai',degreeZh:'桂林理工大学2025级城乡规划学在读研究生',degreeHant:'桂林理工大學2025級城鄉規劃學在讀研究生',degreeEn:'2025 graduate student in Urban and Rural Planning, Guilin University of Technology',image:'assets/team/cai-jiapan.webp'},
   {nameZh:'黄田志磊',nameEn:'Tianzhilei Huang',degreeZh:'桂林理工大学2026级城乡规划学在读研究生',degreeHant:'桂林理工大學2026級城鄉規劃學在讀研究生',degreeEn:'2026 graduate student in Urban and Rural Planning, Guilin University of Technology',image:'assets/team/huang-tianzhilei.webp'},
   {nameZh:'何霁芸',nameEn:'Jiyun He',degreeZh:'桂林理工大学2024级风景园林在读研究生',degreeHant:'桂林理工大學2024級風景園林在讀研究生',degreeEn:'2024 graduate student in Landscape Architecture, Guilin University of Technology',image:'assets/team/he-jiyun.webp'}
 ];
@@ -1323,6 +1409,7 @@ function renderProjectArticle(project){
     </figure>
   `).join('');
 
+  const pdfLabel = usesTraditionalContent() ? '開啟原始 PDF' : (usesChineseContent() ? '打开原始 PDF' : 'OPEN ORIGINAL PDF');
   projectTechnical.innerHTML = `
     <small>PROJECT DATA</small>
     <h3>${usesChineseContent()?'项目信息':'Project Information'}</h3>
@@ -1334,6 +1421,7 @@ function renderProjectArticle(project){
       <div><dt>${usesChineseContent()?'设计年份':'Year'}</dt><dd>${info.year || '2026'}</dd></div>
       <div><dt>${usesChineseContent()?'研究团队':'Team'}</dt><dd>${usesChineseContent()?'刘韩昕老师疗愈城市研究团队':'Hanxin Liu · Healing City Research Team'}</dd></div>
     </dl>
+    ${project.pdfPath ? `<a class="project-pdf-link" href="${project.pdfPath}" target="_blank" rel="noopener"><span>${pdfLabel}</span><i aria-hidden="true">↗</i></a>` : ''}
   `;
   projectGalleryCounter.textContent = `${String(currentProjectImageIndex+1).padStart(2,'0')} / ${String(allShowcaseProjects.length).padStart(2,'0')}`;
   projectGalleryPrev.disabled = currentProjectImageIndex === 0;
@@ -1394,8 +1482,8 @@ function renderTeam(){
 
   const groups = [
     {labelZh:'研究小组',labelHant:'研究小組',labelEn:'RESEARCH GROUP',members:[0,1,2]},
-    {labelZh:'研究小组',labelHant:'研究小組',labelEn:'RESEARCH GROUP',members:[3,4]},
-    {labelZh:'研究小组',labelHant:'研究小組',labelEn:'RESEARCH GROUP',members:[6,5]}
+    {labelZh:'研究小组',labelHant:'研究小組',labelEn:'RESEARCH GROUP',members:[3]},
+    {labelZh:'研究小组',labelHant:'研究小組',labelEn:'RESEARCH GROUP',members:[5,4]}
   ];
   const groupLabel = group=>usesTraditionalContent()?group.labelHant:(usesChineseContent()?group.labelZh:group.labelEn);
   const memberMarkup = memberIndex=>{
@@ -1730,7 +1818,7 @@ function openTeamMemberProfile(index,trigger){
   teamMemberReturnTrigger = trigger || null;
   teamMemberDetailPhoto.src = member.image;
   teamMemberDetailPhoto.alt = chinese ? `${name}团队成员照片` : `${name}, team member`;
-  teamMemberDetailCount.textContent = `TEAM MEMBER · ${String(index+2).padStart(2,'0')} / 08`;
+  teamMemberDetailCount.textContent = `TEAM MEMBER · ${String(index+2).padStart(2,'0')} / ${String(teamMembers.length+1).padStart(2,'0')}`;
   teamMemberDetailRole.textContent = chinese ? '团队成员 · TEAM MEMBER' : 'HEALING CITY LAB · TEAM MEMBER';
   teamMemberDetailName.textContent = name;
   teamMemberDetailIntro.textContent = traditional

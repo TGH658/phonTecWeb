@@ -1,0 +1,26 @@
+Healing City Lab — deployment checklist (R8 · 2026-09-14)
+
+[ ] Upload index.html, style.css, mobile-only.css, app.js, data.js
+[ ] Upload the complete assets/ directory
+[ ] Upload the complete pages/ directory (146 WebP pages)
+[ ] Upload the complete pdfs/ directory (19 original PDFs)
+[ ] Keep all relative paths and filenames unchanged
+[ ] Clear CDN / Cloudflare / browser cache after replacing the old site
+[ ] Healing Updates shows 08 items
+[ ] The first Healing Updates item is the Teachers' Day special topic
+[ ] The Teachers' Day topic opens 5 images in the correct order
+[ ] Team page shows 07 total members (1 leader + 6 graduate researchers)
+[ ] Cai Jiapan is absent from the team page and member detail navigation
+[ ] Only the two paper thumbnails and Shanshui Healing Workshop thumbnail are image-only
+[ ] Other Healing Updates / project thumbnails retain their overlay titles
+[ ] Publication cards open the intermediate page and full reader
+[ ] Project and team detail sheets open normally
+[ ] Language switch and background music controls work
+[ ] Optionally verify files with FILE_MANIFEST.sha256
+
+
+R9 competition PDF check
+[ ] Projects section count reads 05.
+[ ] Competition Projects shows Pixel Oasis and Biophilic Design: Micro-Landscape Creation.
+[ ] Biophilic project opens with 21 WebP pages.
+[ ] OPEN ORIGINAL PDF / 打开原始 PDF opens pdfs/biophilic-design-micro-landscape.pdf.
